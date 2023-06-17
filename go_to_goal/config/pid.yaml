@@ -1,0 +1,11 @@
+goal_server:
+  ros__parameters:
+    rate: 30.0
+    distance_tolerance: 0.05
+    heading_tolerance: 0.02
+    align_tolerance: 0.25
+    max_linear_speed: 2.0
+    max_angular_speed: 3.0
+    timeout: 60.0
+    linear_pid: [1.2, 0.0, 0.05]    # kp, ki, kd
+    angular_pid: [5.0, 0.1, 0.2]
