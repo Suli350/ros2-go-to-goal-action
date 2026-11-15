@@ -22,7 +22,7 @@ Drive `turtlesim` to any pose with a **custom ROS2 action** and two **PID contro
 ## Build & run
 
 ```bash
-cd ~/ros2_ws/src && git clone https://github.com/<you>/ros2-go-to-goal-action.git
+cd ~/ros2_ws/src && git clone https://github.com/Suli350/ros2-go-to-goal-action.git
 cd ~/ros2_ws && colcon build --symlink-install && source install/setup.bash
 
 ros2 launch go_to_goal go_to_goal.launch.py
